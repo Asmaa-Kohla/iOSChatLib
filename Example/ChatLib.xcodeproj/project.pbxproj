@@ -214,10 +214,10 @@
 		D6765A06280D9FC200270C69 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				D6765A07280D9FC200270C69 /* ChatViewController.m */,
 				D6765A08280D9FC200270C69 /* MailboxViewController.h */,
 				D6765A09280D9FC200270C69 /* MailboxViewController.m */,
 				D6765A0A280D9FC200270C69 /* ChatViewController.h */,
+				D6765A07280D9FC200270C69 /* ChatViewController.m */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";

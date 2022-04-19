@@ -443,12 +443,12 @@
 		D6765932280D9EE200270C69 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				D6765933280D9EE200270C69 /* ParentCell */,
 				D6765943280D9EE200270C69 /* TypingIndicatorFooterView.h */,
+				D6765977280D9EE200270C69 /* TypingIndicatorFooterView.m */,
+				D6765976280D9EE200270C69 /* TypingIndicatorFooterView.xib */,
+				D6765933280D9EE200270C69 /* ParentCell */,
 				D6765944280D9EE200270C69 /* Received */,
 				D676595D280D9EE200270C69 /* Sent */,
-				D6765976280D9EE200270C69 /* TypingIndicatorFooterView.xib */,
-				D6765977280D9EE200270C69 /* TypingIndicatorFooterView.m */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -456,20 +456,20 @@
 		D6765933280D9EE200270C69 /* ParentCell */ = {
 			isa = PBXGroup;
 			children = (
-				D6765934280D9EE200270C69 /* TextMessageCell.h */,
-				D6765935280D9EE200270C69 /* VideoMessageCell.h */,
-				D6765936280D9EE200270C69 /* VoiceMessageCell.m */,
-				D6765937280D9EE200270C69 /* LinkMessageCell.m */,
-				D6765938280D9EE200270C69 /* ImageMessageCell.h */,
-				D6765939280D9EE200270C69 /* BubbleMessageCell.m */,
 				D676593A280D9EE200270C69 /* MessageCell.h */,
-				D676593B280D9EE200270C69 /* VoiceMessageCell.h */,
-				D676593C280D9EE200270C69 /* VideoMessageCell.m */,
-				D676593D280D9EE200270C69 /* TextMessageCell.m */,
-				D676593E280D9EE200270C69 /* LinkMessageCell.h */,
-				D676593F280D9EE200270C69 /* BubbleMessageCell.h */,
-				D6765940280D9EE200270C69 /* ImageMessageCell.m */,
 				D6765941280D9EE200270C69 /* MessageCell.m */,
+				D676593F280D9EE200270C69 /* BubbleMessageCell.h */,
+				D6765939280D9EE200270C69 /* BubbleMessageCell.m */,
+				D6765934280D9EE200270C69 /* TextMessageCell.h */,
+				D676593D280D9EE200270C69 /* TextMessageCell.m */,
+				D6765938280D9EE200270C69 /* ImageMessageCell.h */,
+				D6765940280D9EE200270C69 /* ImageMessageCell.m */,
+				D676593B280D9EE200270C69 /* VoiceMessageCell.h */,
+				D6765936280D9EE200270C69 /* VoiceMessageCell.m */,
+				D6765935280D9EE200270C69 /* VideoMessageCell.h */,
+				D676593C280D9EE200270C69 /* VideoMessageCell.m */,
+				D676593E280D9EE200270C69 /* LinkMessageCell.h */,
+				D6765937280D9EE200270C69 /* LinkMessageCell.m */,
 			);
 			path = ParentCell;
 			sourceTree = "<group>";
@@ -477,30 +477,30 @@
 		D6765944280D9EE200270C69 /* Received */ = {
 			isa = PBXGroup;
 			children = (
-				D6765945280D9EE200270C69 /* ReceivedVoiceMessageCell.m */,
-				D6765946280D9EE200270C69 /* ReceivedVideoMessageCell.h */,
-				D6765947280D9EE200270C69 /* ReceivedLinkMessageCell.m */,
-				D6765948280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.m */,
 				D6765949280D9EE200270C69 /* ReceivedTextMessageCell.h */,
+				D6765955280D9EE200270C69 /* ReceivedTextMessageCell.m */,
+				D676595C280D9EE200270C69 /* ReceivedTextMessageCell.xib */,
 				D676594A280D9EE200270C69 /* ReceivedImageMessageCell.h */,
+				D676595A280D9EE200270C69 /* ReceivedImageMessageCell.m */,
+				D6765959280D9EE200270C69 /* ReceivedImageMessageCell.xib */,
+				D6765954280D9EE200270C69 /* ReceivedVoiceMessageCell.h */,
+				D6765945280D9EE200270C69 /* ReceivedVoiceMessageCell.m */,
+				D6765950280D9EE200270C69 /* ReceivedVoiceMessageCell.xib */,
+				D6765946280D9EE200270C69 /* ReceivedVideoMessageCell.h */,
+				D6765953280D9EE200270C69 /* ReceivedVideoMessageCell.m */,
+				D676594E280D9EE200270C69 /* ReceivedVideoMessageCell.xib */,
+				D6765951280D9EE200270C69 /* ReceivedLinkMessageCell.h */,
+				D6765947280D9EE200270C69 /* ReceivedLinkMessageCell.m */,
+				D676594F280D9EE200270C69 /* ReceivedLinkMessageCell.xib */,
+				D6765958280D9EE200270C69 /* ReceivedDeletedMessageCell.h */,
 				D676594B280D9EE200270C69 /* ReceivedDeletedMessageCell.m */,
 				D676594C280D9EE200270C69 /* ReceivedDeletedMessageCell.xib */,
 				D676594D280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.h */,
-				D676594E280D9EE200270C69 /* ReceivedVideoMessageCell.xib */,
-				D676594F280D9EE200270C69 /* ReceivedLinkMessageCell.xib */,
-				D6765950280D9EE200270C69 /* ReceivedVoiceMessageCell.xib */,
-				D6765951280D9EE200270C69 /* ReceivedLinkMessageCell.h */,
-				D6765952280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.xib */,
-				D6765953280D9EE200270C69 /* ReceivedVideoMessageCell.m */,
-				D6765954280D9EE200270C69 /* ReceivedVoiceMessageCell.h */,
-				D6765955280D9EE200270C69 /* ReceivedTextMessageCell.m */,
-				D6765956280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.h */,
 				D6765957280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.m */,
-				D6765958280D9EE200270C69 /* ReceivedDeletedMessageCell.h */,
-				D6765959280D9EE200270C69 /* ReceivedImageMessageCell.xib */,
-				D676595A280D9EE200270C69 /* ReceivedImageMessageCell.m */,
 				D676595B280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.xib */,
-				D676595C280D9EE200270C69 /* ReceivedTextMessageCell.xib */,
+				D6765956280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.h */,
+				D6765948280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.m */,
+				D6765952280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.xib */,
 			);
 			path = Received;
 			sourceTree = "<group>";
@@ -508,30 +508,30 @@
 		D676595D280D9EE200270C69 /* Sent */ = {
 			isa = PBXGroup;
 			children = (
-				D676595E280D9EE200270C69 /* SentMissedAudioCallMessageCell.m */,
+				D676596F280D9EE200270C69 /* SentTextMessageCell.h */,
+				D6765964280D9EE200270C69 /* SentTextMessageCell.m */,
+				D6765974280D9EE200270C69 /* SentTextMessageCell.xib */,
+				D676596D280D9EE200270C69 /* SentImageMessageCell.h */,
 				D676595F280D9EE200270C69 /* SentImageMessageCell.m */,
+				D676596B280D9EE200270C69 /* SentImageMessageCell.xib */,
+				D6765966280D9EE200270C69 /* SentVoiceMessageCell.h */,
+				D6765972280D9EE200270C69 /* SentVoiceMessageCell.m */,
+				D6765971280D9EE200270C69 /* SentVoiceMessageCell.xib */,
+				D6765973280D9EE200270C69 /* SentVideoMessageCell.h */,
+				D6765965280D9EE200270C69 /* SentVideoMessageCell.m */,
+				D6765963280D9EE200270C69 /* SentVideoMessageCell.xib */,
 				D6765960280D9EE200270C69 /* SentLinkMessageCell.h */,
+				D676596C280D9EE200270C69 /* SentLinkMessageCell.m */,
+				D6765967280D9EE200270C69 /* SentLinkMessageCell.xib */,
+				D676596A280D9EE200270C69 /* SentDeletedMessageCell.h */,
 				D6765961280D9EE200270C69 /* SentDeletedMessageCell.m */,
 				D6765962280D9EE200270C69 /* SentDeletedMessageCell.xib */,
-				D6765963280D9EE200270C69 /* SentVideoMessageCell.xib */,
-				D6765964280D9EE200270C69 /* SentTextMessageCell.m */,
-				D6765965280D9EE200270C69 /* SentVideoMessageCell.m */,
-				D6765966280D9EE200270C69 /* SentVoiceMessageCell.h */,
-				D6765967280D9EE200270C69 /* SentLinkMessageCell.xib */,
+				D6765975280D9EE200270C69 /* SentCompleteAudioCallMessageCell.h */,
 				D6765968280D9EE200270C69 /* SentCompleteAudioCallMessageCell.m */,
 				D6765969280D9EE200270C69 /* SentCompleteAudioCallMessageCell.xib */,
-				D676596A280D9EE200270C69 /* SentDeletedMessageCell.h */,
-				D676596B280D9EE200270C69 /* SentImageMessageCell.xib */,
-				D676596C280D9EE200270C69 /* SentLinkMessageCell.m */,
-				D676596D280D9EE200270C69 /* SentImageMessageCell.h */,
 				D676596E280D9EE200270C69 /* SentMissedAudioCallMessageCell.h */,
-				D676596F280D9EE200270C69 /* SentTextMessageCell.h */,
 				D6765970280D9EE200270C69 /* SentMissedAudioCallMessageCell.xib */,
-				D6765971280D9EE200270C69 /* SentVoiceMessageCell.xib */,
-				D6765972280D9EE200270C69 /* SentVoiceMessageCell.m */,
-				D6765973280D9EE200270C69 /* SentVideoMessageCell.h */,
-				D6765974280D9EE200270C69 /* SentTextMessageCell.xib */,
-				D6765975280D9EE200270C69 /* SentCompleteAudioCallMessageCell.h */,
+				D676595E280D9EE200270C69 /* SentMissedAudioCallMessageCell.m */,
 			);
 			path = Sent;
 			sourceTree = "<group>";
@@ -549,11 +549,11 @@
 			isa = PBXGroup;
 			children = (
 				D676597C280D9EE300270C69 /* ChatDisplayViewController.h */,
-				D676597D280D9EE300270C69 /* ImagePreviewViewController.h */,
 				D676597E280D9EE300270C69 /* ChatDisplayViewController.m */,
+				D6765981280D9EE300270C69 /* ChatDisplayViewController.xib */,
+				D676597D280D9EE300270C69 /* ImagePreviewViewController.h */,
 				D676597F280D9EE300270C69 /* ImagePreviewViewController.m */,
 				D6765980280D9EE300270C69 /* ImagePreviewViewController.xib */,
-				D6765981280D9EE300270C69 /* ChatDisplayViewController.xib */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -570,20 +570,20 @@
 		D6765985280D9EE300270C69 /* DataHolder */ = {
 			isa = PBXGroup;
 			children = (
-				D6765986280D9EE300270C69 /* VideoMessageData.h */,
-				D6765987280D9EE300270C69 /* VoiceMessageData.m */,
-				D6765988280D9EE300270C69 /* TextMessageData.h */,
-				D6765989280D9EE300270C69 /* LinkMessageData.m */,
 				D676598A280D9EE300270C69 /* MessageType.h */,
-				D676598B280D9EE300270C69 /* ImageMessageData.h */,
 				D676598C280D9EE300270C69 /* SendingState.h */,
 				D676598D280D9EE300270C69 /* MessageData.h */,
+				D6765993280D9EE300270C69 /* MessageData.m */,
+				D6765988280D9EE300270C69 /* TextMessageData.h */,
 				D676598E280D9EE300270C69 /* TextMessageData.m */,
+				D676598B280D9EE300270C69 /* ImageMessageData.h */,
+				D6765992280D9EE300270C69 /* ImageMessageData.m */,
 				D676598F280D9EE300270C69 /* VoiceMessageData.h */,
+				D6765987280D9EE300270C69 /* VoiceMessageData.m */,
+				D6765986280D9EE300270C69 /* VideoMessageData.h */,
 				D6765990280D9EE300270C69 /* VideoMessageData.m */,
 				D6765991280D9EE300270C69 /* LinkMessageData.h */,
-				D6765992280D9EE300270C69 /* ImageMessageData.m */,
-				D6765993280D9EE300270C69 /* MessageData.m */,
+				D6765989280D9EE300270C69 /* LinkMessageData.m */,
 			);
 			path = DataHolder;
 			sourceTree = "<group>";
@@ -591,14 +591,14 @@
 		D6765994280D9EE300270C69 /* Protocols */ = {
 			isa = PBXGroup;
 			children = (
-				D6765995280D9EE300270C69 /* VideoMessageProtocol.h */,
-				D6765996280D9EE300270C69 /* VoiceMessageProtocol.h */,
-				D6765997280D9EE300270C69 /* ImageMessageProtocol.h */,
-				D6765998280D9EE300270C69 /* TextMessageProtocol.h */,
-				D6765999280D9EE300270C69 /* LinkMessageProtocol.h */,
-				D676599A280D9EE300270C69 /* AudioOwnerDelegate.h */,
 				D676599B280D9EE300270C69 /* MessageProtocol.h */,
+				D6765998280D9EE300270C69 /* TextMessageProtocol.h */,
+				D6765997280D9EE300270C69 /* ImageMessageProtocol.h */,
+				D6765996280D9EE300270C69 /* VoiceMessageProtocol.h */,
+				D676599A280D9EE300270C69 /* AudioOwnerDelegate.h */,
 				D676599C280D9EE300270C69 /* AudioPlayerDelegate.h */,
+				D6765995280D9EE300270C69 /* VideoMessageProtocol.h */,
+				D6765999280D9EE300270C69 /* LinkMessageProtocol.h */,
 			);
 			path = Protocols;
 			sourceTree = "<group>";

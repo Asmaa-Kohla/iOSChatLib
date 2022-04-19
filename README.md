@@ -5,6 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/ChatLib.svg?style=flat)](https://cocoapods.org/pods/ChatLib)
 [![Platform](https://img.shields.io/cocoapods/p/ChatLib.svg?style=flat)](https://cocoapods.org/pods/ChatLib)
 
+<video src="screenRecording.mov" alt="Screenshot of Quick Chat for iOS" />
+
+<video controls>
+  <source src="screenRecording.mov" type="video/mov">
+</video>
+
+<img src="screenshot1.png" alt="Screenshot of Dark mode" />
+
+<img src="screenshot2.png" alt="Screenshot of Dark mode" />
+
+<img src="screenshot3.png" alt="Screenshot of Dark mode" />
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
