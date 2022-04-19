@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="pwY-Ql-oNx" customClass="ReceivedLinkMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="xkk-HR-q1x">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1G3-8i-KYr">
+                        <rect key="frame" x="5" y="4" width="16" height="74"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UVr-Cn-lX8">
+                        <rect key="frame" x="0.0" y="2" width="320" height="0.0"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="oz1-L8-H0a"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" contentInsetAdjustmentBehavior="never" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="mb8-a1-iLt">
+                        <rect key="frame" x="16" y="14" width="0.0" height="56"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" name="blackColor"/>
+                        <color key="textColor" name="blackColor"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16.5"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NiK-re-Wcb">
+                        <rect key="frame" x="11" y="68" width="10" height="0.0"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="10" id="9ay-Zf-ycV"/>
+                            <constraint firstAttribute="height" id="ewe-7i-s2p"/>
+                        </constraints>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NVF-Cr-mwq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <color key="backgroundColor" name="dummingColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="mb8-a1-iLt" firstAttribute="top" secondItem="UVr-Cn-lX8" secondAttribute="bottom" constant="12" id="7O6-NA-iaB"/>
+                    <constraint firstItem="1G3-8i-KYr" firstAttribute="trailing" secondItem="NiK-re-Wcb" secondAttribute="trailing" id="7km-w4-HX2"/>
+                    <constraint firstItem="NVF-Cr-mwq" firstAttribute="leading" secondItem="xkk-HR-q1x" secondAttribute="leading" id="A0c-2b-Y1o"/>
+                    <constraint firstItem="NVF-Cr-mwq" firstAttribute="top" secondItem="xkk-HR-q1x" secondAttribute="top" id="Fwp-M2-Pve"/>
+                    <constraint firstAttribute="trailing" secondItem="NVF-Cr-mwq" secondAttribute="trailing" id="KO3-Kq-eX6"/>
+                    <constraint firstItem="mb8-a1-iLt" firstAttribute="bottom" secondItem="NiK-re-Wcb" secondAttribute="top" constant="2" id="MIQ-l6-xy5"/>
+                    <constraint firstItem="1G3-8i-KYr" firstAttribute="bottom" secondItem="NiK-re-Wcb" secondAttribute="bottom" constant="10" id="TC2-gR-ghC"/>
+                    <constraint firstItem="mb8-a1-iLt" firstAttribute="leading" secondItem="xkk-HR-q1x" secondAttribute="leading" constant="16" id="UWg-O2-DrQ"/>
+                    <constraint firstAttribute="trailing" secondItem="UVr-Cn-lX8" secondAttribute="trailing" id="YCf-Dm-xCi"/>
+                    <constraint firstItem="UVr-Cn-lX8" firstAttribute="leading" secondItem="xkk-HR-q1x" secondAttribute="leading" id="ZdN-fH-nv1"/>
+                    <constraint firstItem="UVr-Cn-lX8" firstAttribute="top" secondItem="xkk-HR-q1x" secondAttribute="top" constant="2" id="bBd-hD-mf9"/>
+                    <constraint firstItem="mb8-a1-iLt" firstAttribute="width" secondItem="NiK-re-Wcb" secondAttribute="width" constant="-10" id="ccA-Xn-Qhc"/>
+                    <constraint firstAttribute="bottom" secondItem="NVF-Cr-mwq" secondAttribute="bottom" id="f83-j4-ayT"/>
+                    <constraint firstItem="1G3-8i-KYr" firstAttribute="top" secondItem="mb8-a1-iLt" secondAttribute="top" constant="-10" id="ri2-uA-TTQ"/>
+                    <constraint firstItem="NiK-re-Wcb" firstAttribute="leading" secondItem="xkk-HR-q1x" secondAttribute="leading" constant="11" id="sBh-yU-E5B"/>
+                    <constraint firstItem="1G3-8i-KYr" firstAttribute="leading" secondItem="NiK-re-Wcb" secondAttribute="leading" constant="-6" id="sd2-3g-0xl"/>
+                    <constraint firstAttribute="bottom" secondItem="NiK-re-Wcb" secondAttribute="bottom" constant="12" id="tmM-s6-9Jx"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="bubbleImageView" destination="1G3-8i-KYr" id="yS4-ce-GwT"/>
+                <outlet property="dateLabelHeightConstraint" destination="oz1-L8-H0a" id="Tbi-Fl-AdL"/>
+                <outlet property="dateTimeLabel" destination="UVr-Cn-lX8" id="wIl-ee-xNm"/>
+                <outlet property="dummingView" destination="NVF-Cr-mwq" id="MPH-lv-6VZ"/>
+                <outlet property="linkContentHeightConstraint" destination="ewe-7i-s2p" id="RdS-hY-Z2F"/>
+                <outlet property="linkContentView" destination="NiK-re-Wcb" id="eSL-DO-4Cn"/>
+                <outlet property="linkContentWidthConstraint" destination="9ay-Zf-ycV" id="FwC-CO-I5g"/>
+                <outlet property="messageTextView" destination="mb8-a1-iLt" id="RPt-5V-MJw"/>
+            </connections>
+            <point key="canvasLocation" x="-267" y="20"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blackColor">
+            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="dummingColor">
+            <color red="0.33300000429153442" green="0.33300000429153442" blue="0.33300000429153442" alpha="0.75" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

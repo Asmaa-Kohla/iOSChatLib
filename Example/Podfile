@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'ChatLib_Example' do
+  pod 'ChatLib', :path => '../'
+
+  target 'ChatLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,16 @@
+PODS:
+  - ChatLib (0.1.0)
+
+DEPENDENCIES:
+  - ChatLib (from `../`)
+
+EXTERNAL SOURCES:
+  ChatLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ChatLib: db1f9e4e0329da80632c3cada94951938e4a0d6e
+
+PODFILE CHECKSUM: 739315d8d9460ebc269253927b76cd1daae5a2f5
+
+COCOAPODS: 1.11.2

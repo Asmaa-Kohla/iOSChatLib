@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="08k-tn-Ypj" customClass="ReceivedImageMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="5d5-DG-aac">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yVM-KX-9fF">
+                        <rect key="frame" x="5" y="2" width="310" height="0.0"/>
+                        <constraints>
+                            <constraint firstAttribute="height" id="Dg6-4h-rEj"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NIn-1x-bpV" userLabel="ImagesView">
+                        <rect key="frame" x="5" y="7" width="285" height="71"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="E7t-61-GEg">
+                                <rect key="frame" x="0.0" y="0.0" width="71" height="71"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="E7t-61-GEg" secondAttribute="height" multiplier="1:1" id="Rg6-Uf-2KH"/>
+                                </constraints>
+                            </imageView>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="kdK-4R-rFg">
+                                <rect key="frame" x="25.5" y="25.5" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="JYH-VR-uN6"/>
+                                    <constraint firstAttribute="height" constant="20" id="dBa-kv-Wak"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="kdK-4R-rFg" firstAttribute="centerY" secondItem="E7t-61-GEg" secondAttribute="centerY" id="7Qm-Rk-doC"/>
+                            <constraint firstAttribute="bottom" secondItem="E7t-61-GEg" secondAttribute="bottom" id="FFg-u7-MN6"/>
+                            <constraint firstItem="E7t-61-GEg" firstAttribute="leading" secondItem="NIn-1x-bpV" secondAttribute="leading" id="Vay-9s-re6"/>
+                            <constraint firstItem="E7t-61-GEg" firstAttribute="top" secondItem="NIn-1x-bpV" secondAttribute="top" id="ion-DG-bGB"/>
+                            <constraint firstItem="kdK-4R-rFg" firstAttribute="centerX" secondItem="E7t-61-GEg" secondAttribute="centerX" id="jKo-rS-qCS"/>
+                        </constraints>
+                    </view>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pww-P4-1Cm">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <color key="backgroundColor" name="dummingColor"/>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Pww-P4-1Cm" secondAttribute="trailing" id="5aW-OZ-JB4"/>
+                    <constraint firstItem="yVM-KX-9fF" firstAttribute="leading" secondItem="5d5-DG-aac" secondAttribute="leading" constant="5" id="AFX-AO-dug"/>
+                    <constraint firstItem="yVM-KX-9fF" firstAttribute="top" secondItem="5d5-DG-aac" secondAttribute="top" constant="2" id="AsL-Mz-eOT"/>
+                    <constraint firstItem="Pww-P4-1Cm" firstAttribute="leading" secondItem="5d5-DG-aac" secondAttribute="leading" id="Bwc-9k-xLc"/>
+                    <constraint firstItem="NIn-1x-bpV" firstAttribute="top" secondItem="yVM-KX-9fF" secondAttribute="bottom" constant="5" id="N3N-pZ-Dav"/>
+                    <constraint firstAttribute="bottom" secondItem="Pww-P4-1Cm" secondAttribute="bottom" id="QV1-nS-APP"/>
+                    <constraint firstItem="NIn-1x-bpV" firstAttribute="leading" secondItem="5d5-DG-aac" secondAttribute="leading" constant="5" id="TVy-GO-G6f"/>
+                    <constraint firstAttribute="trailing" secondItem="NIn-1x-bpV" secondAttribute="trailing" constant="30" id="aNr-0m-M2A"/>
+                    <constraint firstAttribute="trailing" secondItem="yVM-KX-9fF" secondAttribute="trailing" constant="5" id="dY4-4t-c50"/>
+                    <constraint firstAttribute="bottom" secondItem="NIn-1x-bpV" secondAttribute="bottom" constant="2" id="izZ-xc-aDw"/>
+                    <constraint firstItem="Pww-P4-1Cm" firstAttribute="top" secondItem="5d5-DG-aac" secondAttribute="top" id="wbp-0h-BRT"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="dateLabelHeightConstraint" destination="Dg6-4h-rEj" id="wYo-gw-wkl"/>
+                <outlet property="dateTimeLabel" destination="yVM-KX-9fF" id="giA-uJ-MdG"/>
+                <outlet property="dummingView" destination="Pww-P4-1Cm" id="F5t-U3-1pt"/>
+                <outlet property="singleImageLoadingIndecator" destination="kdK-4R-rFg" id="bib-eP-bKZ"/>
+                <outlet property="singleImageView" destination="E7t-61-GEg" id="FPX-aV-f4U"/>
+            </connections>
+            <point key="canvasLocation" x="-434" y="117"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="dummingColor">
+            <color red="0.33000000000000002" green="0.33000000000000002" blue="0.33000000000000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

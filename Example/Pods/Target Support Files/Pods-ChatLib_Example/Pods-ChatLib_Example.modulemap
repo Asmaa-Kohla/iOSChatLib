@@ -1,0 +1,6 @@
+framework module Pods_ChatLib_Example {
+  umbrella header "Pods-ChatLib_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

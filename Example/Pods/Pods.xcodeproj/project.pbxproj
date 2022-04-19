@@ -1,0 +1,1275 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		02DF54ECF33E278C245A71A213D72F31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		1BC895685B6FBFA94D2E3183724CC8A7 /* ChatLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C23B94059371F6B140835234E70681BF /* ChatLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		337FF5E5A1C7D44B0D8A09A083A7E8A2 /* Pods-ChatLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 52552D6FFF4552CAE548F3155BAD25F6 /* Pods-ChatLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		436812E08E4B87E446C31612769904AA /* Pods-ChatLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42837D20F0AFFBC48EDBEDDF902AD49A /* Pods-ChatLib_Tests-dummy.m */; };
+		6C2F83A4DB684C2CEB6B6E633BCF998F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		75C081231D6706BFC6BC922DCEEA8B77 /* ChatLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FAD133C16AFC7CCD879BD103FEE5F431 /* ChatLib-dummy.m */; };
+		86FCEB2C7298EBEF30E3943B8C68D236 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8EA85F2F6148A0771796FBBA8F19071A /* Pods-ChatLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E9478242FEEB7F63578E913CDCD7AE8 /* Pods-ChatLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D676599D280D9EE300270C69 /* ChatLibraryLocalization.strings in Resources */ = {isa = PBXBuildFile; fileRef = D676592B280D9EE200270C69 /* ChatLibraryLocalization.strings */; };
+		D676599E280D9EE300270C69 /* ChatColors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D676592F280D9EE200270C69 /* ChatColors.xcassets */; };
+		D676599F280D9EE300270C69 /* ChatImages.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6765930280D9EE200270C69 /* ChatImages.xcassets */; };
+		D67659A0280D9EE300270C69 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D6765931280D9EE200270C69 /* .gitkeep */; };
+		D67659A1280D9EE300270C69 /* TextMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765934280D9EE200270C69 /* TextMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659A2280D9EE300270C69 /* VideoMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765935280D9EE200270C69 /* VideoMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659A3280D9EE300270C69 /* VoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765936280D9EE200270C69 /* VoiceMessageCell.m */; };
+		D67659A4280D9EE300270C69 /* LinkMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765937280D9EE200270C69 /* LinkMessageCell.m */; };
+		D67659A5280D9EE300270C69 /* ImageMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765938280D9EE200270C69 /* ImageMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659A6280D9EE300270C69 /* BubbleMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765939280D9EE200270C69 /* BubbleMessageCell.m */; };
+		D67659A7280D9EE300270C69 /* MessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676593A280D9EE200270C69 /* MessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659A8280D9EE300270C69 /* VoiceMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676593B280D9EE200270C69 /* VoiceMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659A9280D9EE300270C69 /* VideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676593C280D9EE200270C69 /* VideoMessageCell.m */; };
+		D67659AA280D9EE300270C69 /* TextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676593D280D9EE200270C69 /* TextMessageCell.m */; };
+		D67659AB280D9EE300270C69 /* LinkMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676593E280D9EE200270C69 /* LinkMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659AC280D9EE300270C69 /* BubbleMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676593F280D9EE200270C69 /* BubbleMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659AD280D9EE300270C69 /* ImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765940280D9EE200270C69 /* ImageMessageCell.m */; };
+		D67659AE280D9EE300270C69 /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765941280D9EE200270C69 /* MessageCell.m */; };
+		D67659B0280D9EE300270C69 /* TypingIndicatorFooterView.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765943280D9EE200270C69 /* TypingIndicatorFooterView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659B1280D9EE300270C69 /* ReceivedVoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765945280D9EE200270C69 /* ReceivedVoiceMessageCell.m */; };
+		D67659B2280D9EE300270C69 /* ReceivedVideoMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765946280D9EE200270C69 /* ReceivedVideoMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659B3280D9EE300270C69 /* ReceivedLinkMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765947280D9EE200270C69 /* ReceivedLinkMessageCell.m */; };
+		D67659B4280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765948280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.m */; };
+		D67659B5280D9EE300270C69 /* ReceivedTextMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765949280D9EE200270C69 /* ReceivedTextMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659B6280D9EE300270C69 /* ReceivedImageMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676594A280D9EE200270C69 /* ReceivedImageMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659B7280D9EE300270C69 /* ReceivedDeletedMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676594B280D9EE200270C69 /* ReceivedDeletedMessageCell.m */; };
+		D67659B8280D9EE300270C69 /* ReceivedDeletedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676594C280D9EE200270C69 /* ReceivedDeletedMessageCell.xib */; };
+		D67659B9280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676594D280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659BA280D9EE300270C69 /* ReceivedVideoMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676594E280D9EE200270C69 /* ReceivedVideoMessageCell.xib */; };
+		D67659BB280D9EE300270C69 /* ReceivedLinkMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676594F280D9EE200270C69 /* ReceivedLinkMessageCell.xib */; };
+		D67659BC280D9EE300270C69 /* ReceivedVoiceMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765950280D9EE200270C69 /* ReceivedVoiceMessageCell.xib */; };
+		D67659BD280D9EE300270C69 /* ReceivedLinkMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765951280D9EE200270C69 /* ReceivedLinkMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659BE280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765952280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.xib */; };
+		D67659BF280D9EE300270C69 /* ReceivedVideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765953280D9EE200270C69 /* ReceivedVideoMessageCell.m */; };
+		D67659C0280D9EE300270C69 /* ReceivedVoiceMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765954280D9EE200270C69 /* ReceivedVoiceMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659C1280D9EE300270C69 /* ReceivedTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765955280D9EE200270C69 /* ReceivedTextMessageCell.m */; };
+		D67659C2280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765956280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659C3280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765957280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.m */; };
+		D67659C4280D9EE300270C69 /* ReceivedDeletedMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765958280D9EE200270C69 /* ReceivedDeletedMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659C5280D9EE300270C69 /* ReceivedImageMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765959280D9EE200270C69 /* ReceivedImageMessageCell.xib */; };
+		D67659C6280D9EE300270C69 /* ReceivedImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676595A280D9EE200270C69 /* ReceivedImageMessageCell.m */; };
+		D67659C7280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676595B280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.xib */; };
+		D67659C8280D9EE300270C69 /* ReceivedTextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676595C280D9EE200270C69 /* ReceivedTextMessageCell.xib */; };
+		D67659C9280D9EE300270C69 /* SentMissedAudioCallMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676595E280D9EE200270C69 /* SentMissedAudioCallMessageCell.m */; };
+		D67659CA280D9EE300270C69 /* SentImageMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676595F280D9EE200270C69 /* SentImageMessageCell.m */; };
+		D67659CB280D9EE300270C69 /* SentLinkMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765960280D9EE200270C69 /* SentLinkMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659CC280D9EE300270C69 /* SentDeletedMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765961280D9EE200270C69 /* SentDeletedMessageCell.m */; };
+		D67659CD280D9EE300270C69 /* SentDeletedMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765962280D9EE200270C69 /* SentDeletedMessageCell.xib */; };
+		D67659CE280D9EE300270C69 /* SentVideoMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765963280D9EE200270C69 /* SentVideoMessageCell.xib */; };
+		D67659CF280D9EE300270C69 /* SentTextMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765964280D9EE200270C69 /* SentTextMessageCell.m */; };
+		D67659D0280D9EE300270C69 /* SentVideoMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765965280D9EE200270C69 /* SentVideoMessageCell.m */; };
+		D67659D1280D9EE300270C69 /* SentVoiceMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765966280D9EE200270C69 /* SentVoiceMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659D2280D9EE300270C69 /* SentLinkMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765967280D9EE200270C69 /* SentLinkMessageCell.xib */; };
+		D67659D3280D9EE300270C69 /* SentCompleteAudioCallMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765968280D9EE200270C69 /* SentCompleteAudioCallMessageCell.m */; };
+		D67659D4280D9EE300270C69 /* SentCompleteAudioCallMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765969280D9EE200270C69 /* SentCompleteAudioCallMessageCell.xib */; };
+		D67659D5280D9EE300270C69 /* SentDeletedMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676596A280D9EE200270C69 /* SentDeletedMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659D6280D9EE300270C69 /* SentImageMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D676596B280D9EE200270C69 /* SentImageMessageCell.xib */; };
+		D67659D7280D9EE300270C69 /* SentLinkMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D676596C280D9EE200270C69 /* SentLinkMessageCell.m */; };
+		D67659D8280D9EE300270C69 /* SentImageMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676596D280D9EE200270C69 /* SentImageMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659D9280D9EE300270C69 /* SentMissedAudioCallMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676596E280D9EE200270C69 /* SentMissedAudioCallMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659DA280D9EE300270C69 /* SentTextMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D676596F280D9EE200270C69 /* SentTextMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659DB280D9EE300270C69 /* SentMissedAudioCallMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765970280D9EE200270C69 /* SentMissedAudioCallMessageCell.xib */; };
+		D67659DC280D9EE300270C69 /* SentVoiceMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765971280D9EE200270C69 /* SentVoiceMessageCell.xib */; };
+		D67659DD280D9EE300270C69 /* SentVoiceMessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765972280D9EE200270C69 /* SentVoiceMessageCell.m */; };
+		D67659DE280D9EE300270C69 /* SentVideoMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765973280D9EE200270C69 /* SentVideoMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659DF280D9EE300270C69 /* SentTextMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765974280D9EE200270C69 /* SentTextMessageCell.xib */; };
+		D67659E0280D9EE300270C69 /* SentCompleteAudioCallMessageCell.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765975280D9EE200270C69 /* SentCompleteAudioCallMessageCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659E1280D9EE300270C69 /* TypingIndicatorFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765976280D9EE200270C69 /* TypingIndicatorFooterView.xib */; };
+		D67659E2280D9EE300270C69 /* TypingIndicatorFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765977280D9EE200270C69 /* TypingIndicatorFooterView.m */; };
+		D67659E3280D9EE300270C69 /* ChatUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765979280D9EE200270C69 /* ChatUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659E4280D9EE300270C69 /* ChatUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D676597A280D9EE200270C69 /* ChatUtilities.m */; };
+		D67659E5280D9EE300270C69 /* ChatDisplayViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D676597C280D9EE300270C69 /* ChatDisplayViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659E6280D9EE300270C69 /* ImagePreviewViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D676597D280D9EE300270C69 /* ImagePreviewViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659E7280D9EE300270C69 /* ChatDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D676597E280D9EE300270C69 /* ChatDisplayViewController.m */; };
+		D67659E8280D9EE300270C69 /* ImagePreviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D676597F280D9EE300270C69 /* ImagePreviewViewController.m */; };
+		D67659E9280D9EE300270C69 /* ImagePreviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765980280D9EE300270C69 /* ImagePreviewViewController.xib */; };
+		D67659EA280D9EE300270C69 /* ChatDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6765981280D9EE300270C69 /* ChatDisplayViewController.xib */; };
+		D67659EB280D9EE300270C69 /* UIImage+ChatLib.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765983280D9EE300270C69 /* UIImage+ChatLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659EC280D9EE300270C69 /* UIImage+ChatLib.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765984280D9EE300270C69 /* UIImage+ChatLib.m */; };
+		D67659ED280D9EE300270C69 /* VideoMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765986280D9EE300270C69 /* VideoMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659EE280D9EE300270C69 /* VoiceMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765987280D9EE300270C69 /* VoiceMessageData.m */; };
+		D67659EF280D9EE300270C69 /* TextMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765988280D9EE300270C69 /* TextMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F0280D9EE300270C69 /* LinkMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765989280D9EE300270C69 /* LinkMessageData.m */; };
+		D67659F1280D9EE300270C69 /* MessageType.h in Headers */ = {isa = PBXBuildFile; fileRef = D676598A280D9EE300270C69 /* MessageType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F2280D9EE300270C69 /* ImageMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D676598B280D9EE300270C69 /* ImageMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F3280D9EE300270C69 /* SendingState.h in Headers */ = {isa = PBXBuildFile; fileRef = D676598C280D9EE300270C69 /* SendingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F4280D9EE300270C69 /* MessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D676598D280D9EE300270C69 /* MessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F5280D9EE300270C69 /* TextMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D676598E280D9EE300270C69 /* TextMessageData.m */; };
+		D67659F6280D9EE300270C69 /* VoiceMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D676598F280D9EE300270C69 /* VoiceMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F7280D9EE300270C69 /* VideoMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765990280D9EE300270C69 /* VideoMessageData.m */; };
+		D67659F8280D9EE300270C69 /* LinkMessageData.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765991280D9EE300270C69 /* LinkMessageData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659F9280D9EE300270C69 /* ImageMessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765992280D9EE300270C69 /* ImageMessageData.m */; };
+		D67659FA280D9EE300270C69 /* MessageData.m in Sources */ = {isa = PBXBuildFile; fileRef = D6765993280D9EE300270C69 /* MessageData.m */; };
+		D67659FB280D9EE300270C69 /* VideoMessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765995280D9EE300270C69 /* VideoMessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659FC280D9EE300270C69 /* VoiceMessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765996280D9EE300270C69 /* VoiceMessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659FD280D9EE300270C69 /* ImageMessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765997280D9EE300270C69 /* ImageMessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659FE280D9EE300270C69 /* TextMessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765998280D9EE300270C69 /* TextMessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D67659FF280D9EE300270C69 /* LinkMessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D6765999280D9EE300270C69 /* LinkMessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6765A00280D9EE300270C69 /* AudioOwnerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D676599A280D9EE300270C69 /* AudioOwnerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6765A01280D9EE300270C69 /* MessageProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = D676599B280D9EE300270C69 /* MessageProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6765A02280D9EE300270C69 /* AudioPlayerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = D676599C280D9EE300270C69 /* AudioPlayerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3B104678CE75651B2EE7DFB1E079248 /* Pods-ChatLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E958ECF5D8DBDF4787C3A82F813DCFCB /* Pods-ChatLib_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		20F9A3B72B600ED05ED8536CD218259E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4ACADD7F48BC6AFF19F02FAAA8D04AF9;
+			remoteInfo = ChatLib;
+		};
+		D228FEB216F0090F921A74C239F074CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 921D8E0C924019E61F51AE0B913050D5;
+			remoteInfo = "Pods-ChatLib_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D9A22446001F591599B2C5FDF42604 /* ChatLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatLib-prefix.pch"; sourceTree = "<group>"; };
+		0A85E30A5B656F53452D2191CAA78A18 /* Pods-ChatLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0D836C214A81D89D343CB80E6B76BF90 /* ChatLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = ChatLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2E9478242FEEB7F63578E913CDCD7AE8 /* Pods-ChatLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		3C9123E3F95D688C6C5070A66F81C835 /* Pods-ChatLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatLib_Example-Info.plist"; sourceTree = "<group>"; };
+		42837D20F0AFFBC48EDBEDDF902AD49A /* Pods-ChatLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		4B8B26FB7B3DF3782D202CDD7790B858 /* Pods-ChatLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4BA5A470CC473B97A461199F6F628AAD /* Pods-ChatLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ChatLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		517CFD8DD6F7D17743403B10850DBA74 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		52552D6FFF4552CAE548F3155BAD25F6 /* Pods-ChatLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ChatLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5F2EDCA841B4610491856124518279CA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		7060B205DF3B00EEE497CD9FA83C0136 /* ChatLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = ChatLib.modulemap; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76579D30AB610218F75451D69C7296D1 /* Pods-ChatLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatLib_Tests.modulemap"; sourceTree = "<group>"; };
+		81EB60F69ECF63234CA9EB07B33B7299 /* Pods_ChatLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A18A371843A6D18BEA4D6E4FBFF22638 /* Pods-ChatLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		A8751F49D9FB4A4FCEA03B6925A4B71F /* Pods_ChatLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE2B8F66EE934215EFCB4D2AC55D44C4 /* Pods-ChatLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C23B94059371F6B140835234E70681BF /* ChatLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ChatLib-umbrella.h"; sourceTree = "<group>"; };
+		C66D37A45EC29A6345E49B26E58C804D /* ChatLib.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatLib.debug.xcconfig; sourceTree = "<group>"; };
+		D36153C3852513CFF00A43631A89BF7E /* Pods-ChatLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D676592C280D9EE200270C69 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/ChatLibraryLocalization.strings; sourceTree = "<group>"; };
+		D676592D280D9EE200270C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ChatLibraryLocalization.strings; sourceTree = "<group>"; };
+		D676592E280D9EE200270C69 /* en-GB */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "en-GB"; path = "en-GB.lproj/ChatLibraryLocalization.strings"; sourceTree = "<group>"; };
+		D676592F280D9EE200270C69 /* ChatColors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChatColors.xcassets; sourceTree = "<group>"; };
+		D6765930280D9EE200270C69 /* ChatImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ChatImages.xcassets; sourceTree = "<group>"; };
+		D6765931280D9EE200270C69 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D6765934280D9EE200270C69 /* TextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMessageCell.h; sourceTree = "<group>"; };
+		D6765935280D9EE200270C69 /* VideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMessageCell.h; sourceTree = "<group>"; };
+		D6765936280D9EE200270C69 /* VoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceMessageCell.m; sourceTree = "<group>"; };
+		D6765937280D9EE200270C69 /* LinkMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkMessageCell.m; sourceTree = "<group>"; };
+		D6765938280D9EE200270C69 /* ImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMessageCell.h; sourceTree = "<group>"; };
+		D6765939280D9EE200270C69 /* BubbleMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BubbleMessageCell.m; sourceTree = "<group>"; };
+		D676593A280D9EE200270C69 /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		D676593B280D9EE200270C69 /* VoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceMessageCell.h; sourceTree = "<group>"; };
+		D676593C280D9EE200270C69 /* VideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoMessageCell.m; sourceTree = "<group>"; };
+		D676593D280D9EE200270C69 /* TextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMessageCell.m; sourceTree = "<group>"; };
+		D676593E280D9EE200270C69 /* LinkMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMessageCell.h; sourceTree = "<group>"; };
+		D676593F280D9EE200270C69 /* BubbleMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BubbleMessageCell.h; sourceTree = "<group>"; };
+		D6765940280D9EE200270C69 /* ImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMessageCell.m; sourceTree = "<group>"; };
+		D6765941280D9EE200270C69 /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		D6765943280D9EE200270C69 /* TypingIndicatorFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TypingIndicatorFooterView.h; sourceTree = "<group>"; };
+		D6765945280D9EE200270C69 /* ReceivedVoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedVoiceMessageCell.m; sourceTree = "<group>"; };
+		D6765946280D9EE200270C69 /* ReceivedVideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedVideoMessageCell.h; sourceTree = "<group>"; };
+		D6765947280D9EE200270C69 /* ReceivedLinkMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedLinkMessageCell.m; sourceTree = "<group>"; };
+		D6765948280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedCompleteAudioCallMessageCell.m; sourceTree = "<group>"; };
+		D6765949280D9EE200270C69 /* ReceivedTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedTextMessageCell.h; sourceTree = "<group>"; };
+		D676594A280D9EE200270C69 /* ReceivedImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedImageMessageCell.h; sourceTree = "<group>"; };
+		D676594B280D9EE200270C69 /* ReceivedDeletedMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedDeletedMessageCell.m; sourceTree = "<group>"; };
+		D676594C280D9EE200270C69 /* ReceivedDeletedMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedDeletedMessageCell.xib; sourceTree = "<group>"; };
+		D676594D280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedMissedAudioCallMessageCell.h; sourceTree = "<group>"; };
+		D676594E280D9EE200270C69 /* ReceivedVideoMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedVideoMessageCell.xib; sourceTree = "<group>"; };
+		D676594F280D9EE200270C69 /* ReceivedLinkMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedLinkMessageCell.xib; sourceTree = "<group>"; };
+		D6765950280D9EE200270C69 /* ReceivedVoiceMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedVoiceMessageCell.xib; sourceTree = "<group>"; };
+		D6765951280D9EE200270C69 /* ReceivedLinkMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedLinkMessageCell.h; sourceTree = "<group>"; };
+		D6765952280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedCompleteAudioCallMessageCell.xib; sourceTree = "<group>"; };
+		D6765953280D9EE200270C69 /* ReceivedVideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedVideoMessageCell.m; sourceTree = "<group>"; };
+		D6765954280D9EE200270C69 /* ReceivedVoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedVoiceMessageCell.h; sourceTree = "<group>"; };
+		D6765955280D9EE200270C69 /* ReceivedTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedTextMessageCell.m; sourceTree = "<group>"; };
+		D6765956280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedCompleteAudioCallMessageCell.h; sourceTree = "<group>"; };
+		D6765957280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedMissedAudioCallMessageCell.m; sourceTree = "<group>"; };
+		D6765958280D9EE200270C69 /* ReceivedDeletedMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceivedDeletedMessageCell.h; sourceTree = "<group>"; };
+		D6765959280D9EE200270C69 /* ReceivedImageMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedImageMessageCell.xib; sourceTree = "<group>"; };
+		D676595A280D9EE200270C69 /* ReceivedImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReceivedImageMessageCell.m; sourceTree = "<group>"; };
+		D676595B280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedMissedAudioCallMessageCell.xib; sourceTree = "<group>"; };
+		D676595C280D9EE200270C69 /* ReceivedTextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReceivedTextMessageCell.xib; sourceTree = "<group>"; };
+		D676595E280D9EE200270C69 /* SentMissedAudioCallMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentMissedAudioCallMessageCell.m; sourceTree = "<group>"; };
+		D676595F280D9EE200270C69 /* SentImageMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentImageMessageCell.m; sourceTree = "<group>"; };
+		D6765960280D9EE200270C69 /* SentLinkMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentLinkMessageCell.h; sourceTree = "<group>"; };
+		D6765961280D9EE200270C69 /* SentDeletedMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentDeletedMessageCell.m; sourceTree = "<group>"; };
+		D6765962280D9EE200270C69 /* SentDeletedMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentDeletedMessageCell.xib; sourceTree = "<group>"; };
+		D6765963280D9EE200270C69 /* SentVideoMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentVideoMessageCell.xib; sourceTree = "<group>"; };
+		D6765964280D9EE200270C69 /* SentTextMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentTextMessageCell.m; sourceTree = "<group>"; };
+		D6765965280D9EE200270C69 /* SentVideoMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentVideoMessageCell.m; sourceTree = "<group>"; };
+		D6765966280D9EE200270C69 /* SentVoiceMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentVoiceMessageCell.h; sourceTree = "<group>"; };
+		D6765967280D9EE200270C69 /* SentLinkMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentLinkMessageCell.xib; sourceTree = "<group>"; };
+		D6765968280D9EE200270C69 /* SentCompleteAudioCallMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentCompleteAudioCallMessageCell.m; sourceTree = "<group>"; };
+		D6765969280D9EE200270C69 /* SentCompleteAudioCallMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentCompleteAudioCallMessageCell.xib; sourceTree = "<group>"; };
+		D676596A280D9EE200270C69 /* SentDeletedMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentDeletedMessageCell.h; sourceTree = "<group>"; };
+		D676596B280D9EE200270C69 /* SentImageMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentImageMessageCell.xib; sourceTree = "<group>"; };
+		D676596C280D9EE200270C69 /* SentLinkMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentLinkMessageCell.m; sourceTree = "<group>"; };
+		D676596D280D9EE200270C69 /* SentImageMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentImageMessageCell.h; sourceTree = "<group>"; };
+		D676596E280D9EE200270C69 /* SentMissedAudioCallMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentMissedAudioCallMessageCell.h; sourceTree = "<group>"; };
+		D676596F280D9EE200270C69 /* SentTextMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentTextMessageCell.h; sourceTree = "<group>"; };
+		D6765970280D9EE200270C69 /* SentMissedAudioCallMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentMissedAudioCallMessageCell.xib; sourceTree = "<group>"; };
+		D6765971280D9EE200270C69 /* SentVoiceMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentVoiceMessageCell.xib; sourceTree = "<group>"; };
+		D6765972280D9EE200270C69 /* SentVoiceMessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SentVoiceMessageCell.m; sourceTree = "<group>"; };
+		D6765973280D9EE200270C69 /* SentVideoMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentVideoMessageCell.h; sourceTree = "<group>"; };
+		D6765974280D9EE200270C69 /* SentTextMessageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SentTextMessageCell.xib; sourceTree = "<group>"; };
+		D6765975280D9EE200270C69 /* SentCompleteAudioCallMessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SentCompleteAudioCallMessageCell.h; sourceTree = "<group>"; };
+		D6765976280D9EE200270C69 /* TypingIndicatorFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TypingIndicatorFooterView.xib; sourceTree = "<group>"; };
+		D6765977280D9EE200270C69 /* TypingIndicatorFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TypingIndicatorFooterView.m; sourceTree = "<group>"; };
+		D6765979280D9EE200270C69 /* ChatUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatUtilities.h; sourceTree = "<group>"; };
+		D676597A280D9EE200270C69 /* ChatUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatUtilities.m; sourceTree = "<group>"; };
+		D676597C280D9EE300270C69 /* ChatDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatDisplayViewController.h; sourceTree = "<group>"; };
+		D676597D280D9EE300270C69 /* ImagePreviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePreviewViewController.h; sourceTree = "<group>"; };
+		D676597E280D9EE300270C69 /* ChatDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChatDisplayViewController.m; sourceTree = "<group>"; };
+		D676597F280D9EE300270C69 /* ImagePreviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePreviewViewController.m; sourceTree = "<group>"; };
+		D6765980280D9EE300270C69 /* ImagePreviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagePreviewViewController.xib; sourceTree = "<group>"; };
+		D6765981280D9EE300270C69 /* ChatDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatDisplayViewController.xib; sourceTree = "<group>"; };
+		D6765983280D9EE300270C69 /* UIImage+ChatLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ChatLib.h"; sourceTree = "<group>"; };
+		D6765984280D9EE300270C69 /* UIImage+ChatLib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ChatLib.m"; sourceTree = "<group>"; };
+		D6765986280D9EE300270C69 /* VideoMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMessageData.h; sourceTree = "<group>"; };
+		D6765987280D9EE300270C69 /* VoiceMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceMessageData.m; sourceTree = "<group>"; };
+		D6765988280D9EE300270C69 /* TextMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMessageData.h; sourceTree = "<group>"; };
+		D6765989280D9EE300270C69 /* LinkMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LinkMessageData.m; sourceTree = "<group>"; };
+		D676598A280D9EE300270C69 /* MessageType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageType.h; sourceTree = "<group>"; };
+		D676598B280D9EE300270C69 /* ImageMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMessageData.h; sourceTree = "<group>"; };
+		D676598C280D9EE300270C69 /* SendingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendingState.h; sourceTree = "<group>"; };
+		D676598D280D9EE300270C69 /* MessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageData.h; sourceTree = "<group>"; };
+		D676598E280D9EE300270C69 /* TextMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextMessageData.m; sourceTree = "<group>"; };
+		D676598F280D9EE300270C69 /* VoiceMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceMessageData.h; sourceTree = "<group>"; };
+		D6765990280D9EE300270C69 /* VideoMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoMessageData.m; sourceTree = "<group>"; };
+		D6765991280D9EE300270C69 /* LinkMessageData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMessageData.h; sourceTree = "<group>"; };
+		D6765992280D9EE300270C69 /* ImageMessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageMessageData.m; sourceTree = "<group>"; };
+		D6765993280D9EE300270C69 /* MessageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageData.m; sourceTree = "<group>"; };
+		D6765995280D9EE300270C69 /* VideoMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoMessageProtocol.h; sourceTree = "<group>"; };
+		D6765996280D9EE300270C69 /* VoiceMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceMessageProtocol.h; sourceTree = "<group>"; };
+		D6765997280D9EE300270C69 /* ImageMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageMessageProtocol.h; sourceTree = "<group>"; };
+		D6765998280D9EE300270C69 /* TextMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextMessageProtocol.h; sourceTree = "<group>"; };
+		D6765999280D9EE300270C69 /* LinkMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LinkMessageProtocol.h; sourceTree = "<group>"; };
+		D676599A280D9EE300270C69 /* AudioOwnerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioOwnerDelegate.h; sourceTree = "<group>"; };
+		D676599B280D9EE300270C69 /* MessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageProtocol.h; sourceTree = "<group>"; };
+		D676599C280D9EE300270C69 /* AudioPlayerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioPlayerDelegate.h; sourceTree = "<group>"; };
+		E5EFEC7D8551E9801E17ECE76C0637E6 /* ChatLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChatLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E958ECF5D8DBDF4787C3A82F813DCFCB /* Pods-ChatLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatLib_Example-dummy.m"; sourceTree = "<group>"; };
+		ED8475A774AF31CDDDF931D5E0296893 /* Pods-ChatLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatLib_Tests-Info.plist"; sourceTree = "<group>"; };
+		EEA65B76E741977A893FBE8E8DA3F13B /* Pods-ChatLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F0FF623F5C1CDAB94C8D0D9888FF19C5 /* ChatLib.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ChatLib.release.xcconfig; sourceTree = "<group>"; };
+		F1518BCAB7F48B5A0DE27472A1E4D7D2 /* ChatLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ChatLib-Info.plist"; sourceTree = "<group>"; };
+		F62A24A8E8BEC47D0EA52A6EA43ED906 /* Pods-ChatLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ChatLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FAD133C16AFC7CCD879BD103FEE5F431 /* ChatLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ChatLib-dummy.m"; sourceTree = "<group>"; };
+		FCF2DDDDBB2439EFECD026A99E8C3D65 /* Pods-ChatLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ChatLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD40168D0A5DE174F1E6B7950C630739 /* Pods-ChatLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatLib_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12E2C34F6B0FD6416724EA95FBF20700 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				02DF54ECF33E278C245A71A213D72F31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABA4A2E8A787028938CF9383F19E4AD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C2F83A4DB684C2CEB6B6E633BCF998F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE51637B56A98E568D96B4DF881F16B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86FCEB2C7298EBEF30E3943B8C68D236 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		085308883F7FF90CE1D72B84A170406F /* Pods-ChatLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				FD40168D0A5DE174F1E6B7950C630739 /* Pods-ChatLib_Example.modulemap */,
+				F62A24A8E8BEC47D0EA52A6EA43ED906 /* Pods-ChatLib_Example-acknowledgements.markdown */,
+				A18A371843A6D18BEA4D6E4FBFF22638 /* Pods-ChatLib_Example-acknowledgements.plist */,
+				E958ECF5D8DBDF4787C3A82F813DCFCB /* Pods-ChatLib_Example-dummy.m */,
+				4BA5A470CC473B97A461199F6F628AAD /* Pods-ChatLib_Example-frameworks.sh */,
+				3C9123E3F95D688C6C5070A66F81C835 /* Pods-ChatLib_Example-Info.plist */,
+				2E9478242FEEB7F63578E913CDCD7AE8 /* Pods-ChatLib_Example-umbrella.h */,
+				0A85E30A5B656F53452D2191CAA78A18 /* Pods-ChatLib_Example.debug.xcconfig */,
+				D36153C3852513CFF00A43631A89BF7E /* Pods-ChatLib_Example.release.xcconfig */,
+			);
+			name = "Pods-ChatLib_Example";
+			path = "Target Support Files/Pods-ChatLib_Example";
+			sourceTree = "<group>";
+		};
+		1895A8B6438A37968863C37F50A1710C /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F732F4917884B8ACDC9151C23306C788 /* ChatLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		20229B215FC25A66E82F41B292AE6A25 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7060B205DF3B00EEE497CD9FA83C0136 /* ChatLib.modulemap */,
+				FAD133C16AFC7CCD879BD103FEE5F431 /* ChatLib-dummy.m */,
+				F1518BCAB7F48B5A0DE27472A1E4D7D2 /* ChatLib-Info.plist */,
+				07D9A22446001F591599B2C5FDF42604 /* ChatLib-prefix.pch */,
+				C23B94059371F6B140835234E70681BF /* ChatLib-umbrella.h */,
+				C66D37A45EC29A6345E49B26E58C804D /* ChatLib.debug.xcconfig */,
+				F0FF623F5C1CDAB94C8D0D9888FF19C5 /* ChatLib.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ChatLib";
+			sourceTree = "<group>";
+		};
+		283DF4CB5FFF5317B87F526BFACFD38F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5EFEC7D8551E9801E17ECE76C0637E6 /* ChatLib.framework */,
+				81EB60F69ECF63234CA9EB07B33B7299 /* Pods_ChatLib_Example.framework */,
+				A8751F49D9FB4A4FCEA03B6925A4B71F /* Pods_ChatLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C5BE8486449B57D9E04A8E6B396480 /* Pods-ChatLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				76579D30AB610218F75451D69C7296D1 /* Pods-ChatLib_Tests.modulemap */,
+				BE2B8F66EE934215EFCB4D2AC55D44C4 /* Pods-ChatLib_Tests-acknowledgements.markdown */,
+				4B8B26FB7B3DF3782D202CDD7790B858 /* Pods-ChatLib_Tests-acknowledgements.plist */,
+				42837D20F0AFFBC48EDBEDDF902AD49A /* Pods-ChatLib_Tests-dummy.m */,
+				ED8475A774AF31CDDDF931D5E0296893 /* Pods-ChatLib_Tests-Info.plist */,
+				52552D6FFF4552CAE548F3155BAD25F6 /* Pods-ChatLib_Tests-umbrella.h */,
+				FCF2DDDDBB2439EFECD026A99E8C3D65 /* Pods-ChatLib_Tests.debug.xcconfig */,
+				EEA65B76E741977A893FBE8E8DA3F13B /* Pods-ChatLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-ChatLib_Tests";
+			path = "Target Support Files/Pods-ChatLib_Tests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C5CF00B7142F380DC83E2C1932BACEF3 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				0D836C214A81D89D343CB80E6B76BF90 /* ChatLib.podspec */,
+				517CFD8DD6F7D17743403B10850DBA74 /* LICENSE */,
+				5F2EDCA841B4610491856124518279CA /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CBC33B9E1DED8702251339360BCF0458 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				085308883F7FF90CE1D72B84A170406F /* Pods-ChatLib_Example */,
+				39C5BE8486449B57D9E04A8E6B396480 /* Pods-ChatLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1895A8B6438A37968863C37F50A1710C /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				283DF4CB5FFF5317B87F526BFACFD38F /* Products */,
+				CBC33B9E1DED8702251339360BCF0458 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6765929280D9EE200270C69 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D676592A280D9EE200270C69 /* Resources */,
+				D6765931280D9EE200270C69 /* .gitkeep */,
+				D6765932280D9EE200270C69 /* Cell */,
+				D6765978280D9EE200270C69 /* Common */,
+				D676597B280D9EE300270C69 /* ViewControllers */,
+				D6765982280D9EE300270C69 /* Extentions */,
+				D6765985280D9EE300270C69 /* DataHolder */,
+				D6765994280D9EE300270C69 /* Protocols */,
+			);
+			name = Classes;
+			path = ChatLib/Classes;
+			sourceTree = "<group>";
+		};
+		D676592A280D9EE200270C69 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D676592B280D9EE200270C69 /* ChatLibraryLocalization.strings */,
+				D676592F280D9EE200270C69 /* ChatColors.xcassets */,
+				D6765930280D9EE200270C69 /* ChatImages.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6765932280D9EE200270C69 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				D6765933280D9EE200270C69 /* ParentCell */,
+				D6765943280D9EE200270C69 /* TypingIndicatorFooterView.h */,
+				D6765944280D9EE200270C69 /* Received */,
+				D676595D280D9EE200270C69 /* Sent */,
+				D6765976280D9EE200270C69 /* TypingIndicatorFooterView.xib */,
+				D6765977280D9EE200270C69 /* TypingIndicatorFooterView.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		D6765933280D9EE200270C69 /* ParentCell */ = {
+			isa = PBXGroup;
+			children = (
+				D6765934280D9EE200270C69 /* TextMessageCell.h */,
+				D6765935280D9EE200270C69 /* VideoMessageCell.h */,
+				D6765936280D9EE200270C69 /* VoiceMessageCell.m */,
+				D6765937280D9EE200270C69 /* LinkMessageCell.m */,
+				D6765938280D9EE200270C69 /* ImageMessageCell.h */,
+				D6765939280D9EE200270C69 /* BubbleMessageCell.m */,
+				D676593A280D9EE200270C69 /* MessageCell.h */,
+				D676593B280D9EE200270C69 /* VoiceMessageCell.h */,
+				D676593C280D9EE200270C69 /* VideoMessageCell.m */,
+				D676593D280D9EE200270C69 /* TextMessageCell.m */,
+				D676593E280D9EE200270C69 /* LinkMessageCell.h */,
+				D676593F280D9EE200270C69 /* BubbleMessageCell.h */,
+				D6765940280D9EE200270C69 /* ImageMessageCell.m */,
+				D6765941280D9EE200270C69 /* MessageCell.m */,
+			);
+			path = ParentCell;
+			sourceTree = "<group>";
+		};
+		D6765944280D9EE200270C69 /* Received */ = {
+			isa = PBXGroup;
+			children = (
+				D6765945280D9EE200270C69 /* ReceivedVoiceMessageCell.m */,
+				D6765946280D9EE200270C69 /* ReceivedVideoMessageCell.h */,
+				D6765947280D9EE200270C69 /* ReceivedLinkMessageCell.m */,
+				D6765948280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.m */,
+				D6765949280D9EE200270C69 /* ReceivedTextMessageCell.h */,
+				D676594A280D9EE200270C69 /* ReceivedImageMessageCell.h */,
+				D676594B280D9EE200270C69 /* ReceivedDeletedMessageCell.m */,
+				D676594C280D9EE200270C69 /* ReceivedDeletedMessageCell.xib */,
+				D676594D280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.h */,
+				D676594E280D9EE200270C69 /* ReceivedVideoMessageCell.xib */,
+				D676594F280D9EE200270C69 /* ReceivedLinkMessageCell.xib */,
+				D6765950280D9EE200270C69 /* ReceivedVoiceMessageCell.xib */,
+				D6765951280D9EE200270C69 /* ReceivedLinkMessageCell.h */,
+				D6765952280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.xib */,
+				D6765953280D9EE200270C69 /* ReceivedVideoMessageCell.m */,
+				D6765954280D9EE200270C69 /* ReceivedVoiceMessageCell.h */,
+				D6765955280D9EE200270C69 /* ReceivedTextMessageCell.m */,
+				D6765956280D9EE200270C69 /* ReceivedCompleteAudioCallMessageCell.h */,
+				D6765957280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.m */,
+				D6765958280D9EE200270C69 /* ReceivedDeletedMessageCell.h */,
+				D6765959280D9EE200270C69 /* ReceivedImageMessageCell.xib */,
+				D676595A280D9EE200270C69 /* ReceivedImageMessageCell.m */,
+				D676595B280D9EE200270C69 /* ReceivedMissedAudioCallMessageCell.xib */,
+				D676595C280D9EE200270C69 /* ReceivedTextMessageCell.xib */,
+			);
+			path = Received;
+			sourceTree = "<group>";
+		};
+		D676595D280D9EE200270C69 /* Sent */ = {
+			isa = PBXGroup;
+			children = (
+				D676595E280D9EE200270C69 /* SentMissedAudioCallMessageCell.m */,
+				D676595F280D9EE200270C69 /* SentImageMessageCell.m */,
+				D6765960280D9EE200270C69 /* SentLinkMessageCell.h */,
+				D6765961280D9EE200270C69 /* SentDeletedMessageCell.m */,
+				D6765962280D9EE200270C69 /* SentDeletedMessageCell.xib */,
+				D6765963280D9EE200270C69 /* SentVideoMessageCell.xib */,
+				D6765964280D9EE200270C69 /* SentTextMessageCell.m */,
+				D6765965280D9EE200270C69 /* SentVideoMessageCell.m */,
+				D6765966280D9EE200270C69 /* SentVoiceMessageCell.h */,
+				D6765967280D9EE200270C69 /* SentLinkMessageCell.xib */,
+				D6765968280D9EE200270C69 /* SentCompleteAudioCallMessageCell.m */,
+				D6765969280D9EE200270C69 /* SentCompleteAudioCallMessageCell.xib */,
+				D676596A280D9EE200270C69 /* SentDeletedMessageCell.h */,
+				D676596B280D9EE200270C69 /* SentImageMessageCell.xib */,
+				D676596C280D9EE200270C69 /* SentLinkMessageCell.m */,
+				D676596D280D9EE200270C69 /* SentImageMessageCell.h */,
+				D676596E280D9EE200270C69 /* SentMissedAudioCallMessageCell.h */,
+				D676596F280D9EE200270C69 /* SentTextMessageCell.h */,
+				D6765970280D9EE200270C69 /* SentMissedAudioCallMessageCell.xib */,
+				D6765971280D9EE200270C69 /* SentVoiceMessageCell.xib */,
+				D6765972280D9EE200270C69 /* SentVoiceMessageCell.m */,
+				D6765973280D9EE200270C69 /* SentVideoMessageCell.h */,
+				D6765974280D9EE200270C69 /* SentTextMessageCell.xib */,
+				D6765975280D9EE200270C69 /* SentCompleteAudioCallMessageCell.h */,
+			);
+			path = Sent;
+			sourceTree = "<group>";
+		};
+		D6765978280D9EE200270C69 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D6765979280D9EE200270C69 /* ChatUtilities.h */,
+				D676597A280D9EE200270C69 /* ChatUtilities.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D676597B280D9EE300270C69 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D676597C280D9EE300270C69 /* ChatDisplayViewController.h */,
+				D676597D280D9EE300270C69 /* ImagePreviewViewController.h */,
+				D676597E280D9EE300270C69 /* ChatDisplayViewController.m */,
+				D676597F280D9EE300270C69 /* ImagePreviewViewController.m */,
+				D6765980280D9EE300270C69 /* ImagePreviewViewController.xib */,
+				D6765981280D9EE300270C69 /* ChatDisplayViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D6765982280D9EE300270C69 /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				D6765983280D9EE300270C69 /* UIImage+ChatLib.h */,
+				D6765984280D9EE300270C69 /* UIImage+ChatLib.m */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D6765985280D9EE300270C69 /* DataHolder */ = {
+			isa = PBXGroup;
+			children = (
+				D6765986280D9EE300270C69 /* VideoMessageData.h */,
+				D6765987280D9EE300270C69 /* VoiceMessageData.m */,
+				D6765988280D9EE300270C69 /* TextMessageData.h */,
+				D6765989280D9EE300270C69 /* LinkMessageData.m */,
+				D676598A280D9EE300270C69 /* MessageType.h */,
+				D676598B280D9EE300270C69 /* ImageMessageData.h */,
+				D676598C280D9EE300270C69 /* SendingState.h */,
+				D676598D280D9EE300270C69 /* MessageData.h */,
+				D676598E280D9EE300270C69 /* TextMessageData.m */,
+				D676598F280D9EE300270C69 /* VoiceMessageData.h */,
+				D6765990280D9EE300270C69 /* VideoMessageData.m */,
+				D6765991280D9EE300270C69 /* LinkMessageData.h */,
+				D6765992280D9EE300270C69 /* ImageMessageData.m */,
+				D6765993280D9EE300270C69 /* MessageData.m */,
+			);
+			path = DataHolder;
+			sourceTree = "<group>";
+		};
+		D6765994280D9EE300270C69 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				D6765995280D9EE300270C69 /* VideoMessageProtocol.h */,
+				D6765996280D9EE300270C69 /* VoiceMessageProtocol.h */,
+				D6765997280D9EE300270C69 /* ImageMessageProtocol.h */,
+				D6765998280D9EE300270C69 /* TextMessageProtocol.h */,
+				D6765999280D9EE300270C69 /* LinkMessageProtocol.h */,
+				D676599A280D9EE300270C69 /* AudioOwnerDelegate.h */,
+				D676599B280D9EE300270C69 /* MessageProtocol.h */,
+				D676599C280D9EE300270C69 /* AudioPlayerDelegate.h */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		F732F4917884B8ACDC9151C23306C788 /* ChatLib */ = {
+			isa = PBXGroup;
+			children = (
+				D6765929280D9EE200270C69 /* Classes */,
+				C5CF00B7142F380DC83E2C1932BACEF3 /* Pod */,
+				20229B215FC25A66E82F41B292AE6A25 /* Support Files */,
+			);
+			name = ChatLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		69A8CEF35EE4B96A0AF2DCC68652DCB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67659A7280D9EE300270C69 /* MessageCell.h in Headers */,
+				D67659E5280D9EE300270C69 /* ChatDisplayViewController.h in Headers */,
+				D67659D1280D9EE300270C69 /* SentVoiceMessageCell.h in Headers */,
+				D67659EB280D9EE300270C69 /* UIImage+ChatLib.h in Headers */,
+				D67659D9280D9EE300270C69 /* SentMissedAudioCallMessageCell.h in Headers */,
+				D67659C0280D9EE300270C69 /* ReceivedVoiceMessageCell.h in Headers */,
+				D67659B6280D9EE300270C69 /* ReceivedImageMessageCell.h in Headers */,
+				D67659DE280D9EE300270C69 /* SentVideoMessageCell.h in Headers */,
+				D67659E6280D9EE300270C69 /* ImagePreviewViewController.h in Headers */,
+				D67659D5280D9EE300270C69 /* SentDeletedMessageCell.h in Headers */,
+				D67659A5280D9EE300270C69 /* ImageMessageCell.h in Headers */,
+				D67659EF280D9EE300270C69 /* TextMessageData.h in Headers */,
+				D67659F8280D9EE300270C69 /* LinkMessageData.h in Headers */,
+				D67659ED280D9EE300270C69 /* VideoMessageData.h in Headers */,
+				D67659AC280D9EE300270C69 /* BubbleMessageCell.h in Headers */,
+				D67659B9280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.h in Headers */,
+				D67659B5280D9EE300270C69 /* ReceivedTextMessageCell.h in Headers */,
+				D67659FC280D9EE300270C69 /* VoiceMessageProtocol.h in Headers */,
+				D67659F3280D9EE300270C69 /* SendingState.h in Headers */,
+				D67659E0280D9EE300270C69 /* SentCompleteAudioCallMessageCell.h in Headers */,
+				D67659B2280D9EE300270C69 /* ReceivedVideoMessageCell.h in Headers */,
+				D67659A8280D9EE300270C69 /* VoiceMessageCell.h in Headers */,
+				D67659CB280D9EE300270C69 /* SentLinkMessageCell.h in Headers */,
+				D67659F1280D9EE300270C69 /* MessageType.h in Headers */,
+				D67659BD280D9EE300270C69 /* ReceivedLinkMessageCell.h in Headers */,
+				D67659A2280D9EE300270C69 /* VideoMessageCell.h in Headers */,
+				D67659FD280D9EE300270C69 /* ImageMessageProtocol.h in Headers */,
+				D67659C2280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.h in Headers */,
+				D67659F6280D9EE300270C69 /* VoiceMessageData.h in Headers */,
+				D67659AB280D9EE300270C69 /* LinkMessageCell.h in Headers */,
+				D6765A02280D9EE300270C69 /* AudioPlayerDelegate.h in Headers */,
+				D67659F2280D9EE300270C69 /* ImageMessageData.h in Headers */,
+				D67659A1280D9EE300270C69 /* TextMessageCell.h in Headers */,
+				D67659FB280D9EE300270C69 /* VideoMessageProtocol.h in Headers */,
+				D6765A00280D9EE300270C69 /* AudioOwnerDelegate.h in Headers */,
+				D67659B0280D9EE300270C69 /* TypingIndicatorFooterView.h in Headers */,
+				D67659F4280D9EE300270C69 /* MessageData.h in Headers */,
+				D67659D8280D9EE300270C69 /* SentImageMessageCell.h in Headers */,
+				D67659E3280D9EE300270C69 /* ChatUtilities.h in Headers */,
+				D67659FF280D9EE300270C69 /* LinkMessageProtocol.h in Headers */,
+				D67659C4280D9EE300270C69 /* ReceivedDeletedMessageCell.h in Headers */,
+				D6765A01280D9EE300270C69 /* MessageProtocol.h in Headers */,
+				D67659FE280D9EE300270C69 /* TextMessageProtocol.h in Headers */,
+				D67659DA280D9EE300270C69 /* SentTextMessageCell.h in Headers */,
+				1BC895685B6FBFA94D2E3183724CC8A7 /* ChatLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4886C54617D27089FD36EA3B1E9910 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337FF5E5A1C7D44B0D8A09A083A7E8A2 /* Pods-ChatLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC0E31F0AB190A3377609F8676B006F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EA85F2F6148A0771796FBBA8F19071A /* Pods-ChatLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3F004F86931576A85AF206D187432D4A /* Pods-ChatLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9020086897FCDC27C380BB6FFDA4B8D9 /* Build configuration list for PBXNativeTarget "Pods-ChatLib_Tests" */;
+			buildPhases = (
+				AF4886C54617D27089FD36EA3B1E9910 /* Headers */,
+				A1CAB8E3324A291FCB0CECC062B58E10 /* Sources */,
+				FE51637B56A98E568D96B4DF881F16B7 /* Frameworks */,
+				4F100B87C0AE4693860CAF86F4ADC10A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5467BD2E453A19D562861F01942E41D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatLib_Tests";
+			productName = Pods_ChatLib_Tests;
+			productReference = A8751F49D9FB4A4FCEA03B6925A4B71F /* Pods_ChatLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4ACADD7F48BC6AFF19F02FAAA8D04AF9 /* ChatLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFFDA11B803AE741D3CE898B5F79278B /* Build configuration list for PBXNativeTarget "ChatLib" */;
+			buildPhases = (
+				69A8CEF35EE4B96A0AF2DCC68652DCB5 /* Headers */,
+				D60BCEC65702CF84D10F01B821B03707 /* Sources */,
+				ABA4A2E8A787028938CF9383F19E4AD8 /* Frameworks */,
+				CCFDD0EAC8D16CD00FE1F3D10B5A9537 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatLib;
+			productName = ChatLib;
+			productReference = E5EFEC7D8551E9801E17ECE76C0637E6 /* ChatLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		921D8E0C924019E61F51AE0B913050D5 /* Pods-ChatLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76F12DAEC7E4C08887F0A4395FD640CE /* Build configuration list for PBXNativeTarget "Pods-ChatLib_Example" */;
+			buildPhases = (
+				FAC0E31F0AB190A3377609F8676B006F /* Headers */,
+				537A7F7634B0FA8B7111996E1013A99E /* Sources */,
+				12E2C34F6B0FD6416724EA95FBF20700 /* Frameworks */,
+				ED662EF921B4B65D9796061260C17081 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4068C264A93A24FE863618B12A463428 /* PBXTargetDependency */,
+			);
+			name = "Pods-ChatLib_Example";
+			productName = Pods_ChatLib_Example;
+			productReference = 81EB60F69ECF63234CA9EB07B33B7299 /* Pods_ChatLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1320;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+				ar,
+				"en-GB",
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 283DF4CB5FFF5317B87F526BFACFD38F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACADD7F48BC6AFF19F02FAAA8D04AF9 /* ChatLib */,
+				921D8E0C924019E61F51AE0B913050D5 /* Pods-ChatLib_Example */,
+				3F004F86931576A85AF206D187432D4A /* Pods-ChatLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F100B87C0AE4693860CAF86F4ADC10A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFDD0EAC8D16CD00FE1F3D10B5A9537 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67659CD280D9EE300270C69 /* SentDeletedMessageCell.xib in Resources */,
+				D67659E9280D9EE300270C69 /* ImagePreviewViewController.xib in Resources */,
+				D676599F280D9EE300270C69 /* ChatImages.xcassets in Resources */,
+				D67659BB280D9EE300270C69 /* ReceivedLinkMessageCell.xib in Resources */,
+				D676599D280D9EE300270C69 /* ChatLibraryLocalization.strings in Resources */,
+				D67659E1280D9EE300270C69 /* TypingIndicatorFooterView.xib in Resources */,
+				D67659C7280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.xib in Resources */,
+				D676599E280D9EE300270C69 /* ChatColors.xcassets in Resources */,
+				D67659C5280D9EE300270C69 /* ReceivedImageMessageCell.xib in Resources */,
+				D67659A0280D9EE300270C69 /* .gitkeep in Resources */,
+				D67659BA280D9EE300270C69 /* ReceivedVideoMessageCell.xib in Resources */,
+				D67659D2280D9EE300270C69 /* SentLinkMessageCell.xib in Resources */,
+				D67659CE280D9EE300270C69 /* SentVideoMessageCell.xib in Resources */,
+				D67659DC280D9EE300270C69 /* SentVoiceMessageCell.xib in Resources */,
+				D67659DF280D9EE300270C69 /* SentTextMessageCell.xib in Resources */,
+				D67659D4280D9EE300270C69 /* SentCompleteAudioCallMessageCell.xib in Resources */,
+				D67659B8280D9EE300270C69 /* ReceivedDeletedMessageCell.xib in Resources */,
+				D67659D6280D9EE300270C69 /* SentImageMessageCell.xib in Resources */,
+				D67659EA280D9EE300270C69 /* ChatDisplayViewController.xib in Resources */,
+				D67659C8280D9EE300270C69 /* ReceivedTextMessageCell.xib in Resources */,
+				D67659BE280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.xib in Resources */,
+				D67659BC280D9EE300270C69 /* ReceivedVoiceMessageCell.xib in Resources */,
+				D67659DB280D9EE300270C69 /* SentMissedAudioCallMessageCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED662EF921B4B65D9796061260C17081 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		537A7F7634B0FA8B7111996E1013A99E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3B104678CE75651B2EE7DFB1E079248 /* Pods-ChatLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1CAB8E3324A291FCB0CECC062B58E10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				436812E08E4B87E446C31612769904AA /* Pods-ChatLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D60BCEC65702CF84D10F01B821B03707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D67659B3280D9EE300270C69 /* ReceivedLinkMessageCell.m in Sources */,
+				D67659C9280D9EE300270C69 /* SentMissedAudioCallMessageCell.m in Sources */,
+				D67659AD280D9EE300270C69 /* ImageMessageCell.m in Sources */,
+				D67659B4280D9EE300270C69 /* ReceivedCompleteAudioCallMessageCell.m in Sources */,
+				D67659A9280D9EE300270C69 /* VideoMessageCell.m in Sources */,
+				D67659F7280D9EE300270C69 /* VideoMessageData.m in Sources */,
+				D67659C6280D9EE300270C69 /* ReceivedImageMessageCell.m in Sources */,
+				D67659C3280D9EE300270C69 /* ReceivedMissedAudioCallMessageCell.m in Sources */,
+				D67659B1280D9EE300270C69 /* ReceivedVoiceMessageCell.m in Sources */,
+				D67659CF280D9EE300270C69 /* SentTextMessageCell.m in Sources */,
+				D67659E7280D9EE300270C69 /* ChatDisplayViewController.m in Sources */,
+				D67659BF280D9EE300270C69 /* ReceivedVideoMessageCell.m in Sources */,
+				D67659CA280D9EE300270C69 /* SentImageMessageCell.m in Sources */,
+				D67659A4280D9EE300270C69 /* LinkMessageCell.m in Sources */,
+				D67659B7280D9EE300270C69 /* ReceivedDeletedMessageCell.m in Sources */,
+				D67659CC280D9EE300270C69 /* SentDeletedMessageCell.m in Sources */,
+				D67659E8280D9EE300270C69 /* ImagePreviewViewController.m in Sources */,
+				D67659F9280D9EE300270C69 /* ImageMessageData.m in Sources */,
+				D67659F5280D9EE300270C69 /* TextMessageData.m in Sources */,
+				D67659E2280D9EE300270C69 /* TypingIndicatorFooterView.m in Sources */,
+				D67659AA280D9EE300270C69 /* TextMessageCell.m in Sources */,
+				D67659D3280D9EE300270C69 /* SentCompleteAudioCallMessageCell.m in Sources */,
+				D67659C1280D9EE300270C69 /* ReceivedTextMessageCell.m in Sources */,
+				D67659E4280D9EE300270C69 /* ChatUtilities.m in Sources */,
+				D67659A3280D9EE300270C69 /* VoiceMessageCell.m in Sources */,
+				D67659F0280D9EE300270C69 /* LinkMessageData.m in Sources */,
+				D67659EE280D9EE300270C69 /* VoiceMessageData.m in Sources */,
+				D67659EC280D9EE300270C69 /* UIImage+ChatLib.m in Sources */,
+				D67659D0280D9EE300270C69 /* SentVideoMessageCell.m in Sources */,
+				D67659AE280D9EE300270C69 /* MessageCell.m in Sources */,
+				D67659D7280D9EE300270C69 /* SentLinkMessageCell.m in Sources */,
+				75C081231D6706BFC6BC922DCEEA8B77 /* ChatLib-dummy.m in Sources */,
+				D67659DD280D9EE300270C69 /* SentVoiceMessageCell.m in Sources */,
+				D67659FA280D9EE300270C69 /* MessageData.m in Sources */,
+				D67659A6280D9EE300270C69 /* BubbleMessageCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4068C264A93A24FE863618B12A463428 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ChatLib;
+			target = 4ACADD7F48BC6AFF19F02FAAA8D04AF9 /* ChatLib */;
+			targetProxy = 20F9A3B72B600ED05ED8536CD218259E /* PBXContainerItemProxy */;
+		};
+		5467BD2E453A19D562861F01942E41D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ChatLib_Example";
+			target = 921D8E0C924019E61F51AE0B913050D5 /* Pods-ChatLib_Example */;
+			targetProxy = D228FEB216F0090F921A74C239F074CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D676592B280D9EE200270C69 /* ChatLibraryLocalization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D676592C280D9EE200270C69 /* ar */,
+				D676592D280D9EE200270C69 /* en */,
+				D676592E280D9EE200270C69 /* en-GB */,
+			);
+			name = ChatLibraryLocalization.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00CF48CE3C8A97E34061D4C4D8F7D6E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36153C3852513CFF00A43631A89BF7E /* Pods-ChatLib_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatLib_Example/Pods-ChatLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatLib_Example/Pods-ChatLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4574B6670F9396C65276582F808ECA28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0FF623F5C1CDAB94C8D0D9888FF19C5 /* ChatLib.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatLib/ChatLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatLib/ChatLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChatLib/ChatLib.modulemap";
+				PRODUCT_MODULE_NAME = ChatLib;
+				PRODUCT_NAME = ChatLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		945C02C339979AFF311C3CC5AEE42DA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEA65B76E741977A893FBE8E8DA3F13B /* Pods-ChatLib_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatLib_Tests/Pods-ChatLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatLib_Tests/Pods-ChatLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A7D1B0D20607F0F64DEC75552EABE530 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCF2DDDDBB2439EFECD026A99E8C3D65 /* Pods-ChatLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatLib_Tests/Pods-ChatLib_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatLib_Tests/Pods-ChatLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F96703133FDAAF125DB6BB3C63574A36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C66D37A45EC29A6345E49B26E58C804D /* ChatLib.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ChatLib/ChatLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ChatLib/ChatLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ChatLib/ChatLib.modulemap";
+				PRODUCT_MODULE_NAME = ChatLib;
+				PRODUCT_NAME = ChatLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB01829031656E46D885D302917906D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A85E30A5B656F53452D2191CAA78A18 /* Pods-ChatLib_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ChatLib_Example/Pods-ChatLib_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ChatLib_Example/Pods-ChatLib_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76F12DAEC7E4C08887F0A4395FD640CE /* Build configuration list for PBXNativeTarget "Pods-ChatLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FB01829031656E46D885D302917906D6 /* Debug */,
+				00CF48CE3C8A97E34061D4C4D8F7D6E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9020086897FCDC27C380BB6FFDA4B8D9 /* Build configuration list for PBXNativeTarget "Pods-ChatLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D1B0D20607F0F64DEC75552EABE530 /* Debug */,
+				945C02C339979AFF311C3CC5AEE42DA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFFDA11B803AE741D3CE898B5F79278B /* Build configuration list for PBXNativeTarget "ChatLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F96703133FDAAF125DB6BB3C63574A36 /* Debug */,
+				4574B6670F9396C65276582F808ECA28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

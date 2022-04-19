@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ImagePreviewViewController">
+            <connections>
+                <outlet property="imageView" destination="m38-eI-kvT" id="NR8-gU-cvW"/>
+                <outlet property="view" destination="iN0-l3-epB" id="3Lv-Hc-fDd"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m38-eI-kvT">
+                    <rect key="frame" x="20" y="64" width="374" height="778"/>
+                </imageView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" name="ChatWhiteColor"/>
+            <constraints>
+                <constraint firstItem="m38-eI-kvT" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="20" id="Par-qe-Jb8"/>
+                <constraint firstItem="m38-eI-kvT" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="d10-om-HaZ"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="m38-eI-kvT" secondAttribute="bottom" constant="20" id="hPF-iS-fXh"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="m38-eI-kvT" secondAttribute="trailing" constant="20" id="krd-2n-hwy"/>
+            </constraints>
+            <point key="canvasLocation" x="139" y="84"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="ChatWhiteColor">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

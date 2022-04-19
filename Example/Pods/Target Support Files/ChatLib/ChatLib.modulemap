@@ -1,0 +1,6 @@
+framework module ChatLib {
+  umbrella header "ChatLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

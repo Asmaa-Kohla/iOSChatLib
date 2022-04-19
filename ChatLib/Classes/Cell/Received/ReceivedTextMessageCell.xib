@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" id="0qk-iK-OyH" customClass="ReceivedTextMessageCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="1Kd-0z-5oH">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="V65-gY-AKv">
+                        <rect key="frame" x="5" y="4" width="40" height="74"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Rro-9o-I4G">
+                        <rect key="frame" x="0.0" y="2" width="320" height="0.0"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" id="xpL-10-feF"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" contentInsetAdjustmentBehavior="never" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="bst-0h-I1a">
+                        <rect key="frame" x="25" y="11" width="10" height="60"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16.5"/>
+                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                    </textView>
+                    <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Dui-Zk-AOg">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+                        <color key="backgroundColor" name="dummingColor"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Dui-Zk-AOg" secondAttribute="trailing" id="0fS-WX-fHz"/>
+                    <constraint firstAttribute="trailing" secondItem="Rro-9o-I4G" secondAttribute="trailing" id="5z8-1T-bFC"/>
+                    <constraint firstItem="Rro-9o-I4G" firstAttribute="leading" secondItem="1Kd-0z-5oH" secondAttribute="leading" id="8IT-Sb-Our"/>
+                    <constraint firstItem="V65-gY-AKv" firstAttribute="top" secondItem="bst-0h-I1a" secondAttribute="top" constant="-7" id="9KX-gg-XqG"/>
+                    <constraint firstItem="bst-0h-I1a" firstAttribute="top" secondItem="Rro-9o-I4G" secondAttribute="bottom" constant="9" id="ERV-ia-8hQ"/>
+                    <constraint firstItem="Dui-Zk-AOg" firstAttribute="leading" secondItem="1Kd-0z-5oH" secondAttribute="leading" id="IFx-zR-iCq"/>
+                    <constraint firstItem="V65-gY-AKv" firstAttribute="trailing" secondItem="bst-0h-I1a" secondAttribute="trailing" constant="10" id="K8L-h8-xLm"/>
+                    <constraint firstItem="bst-0h-I1a" firstAttribute="leading" secondItem="1Kd-0z-5oH" secondAttribute="leading" constant="25" id="XDi-9s-JG5"/>
+                    <constraint firstItem="V65-gY-AKv" firstAttribute="leading" secondItem="bst-0h-I1a" secondAttribute="leading" constant="-20" id="agX-Hg-qI4"/>
+                    <constraint firstAttribute="bottom" secondItem="Dui-Zk-AOg" secondAttribute="bottom" id="cCc-XT-q4c"/>
+                    <constraint firstItem="Rro-9o-I4G" firstAttribute="top" secondItem="1Kd-0z-5oH" secondAttribute="top" constant="2" id="cVI-lN-f2h"/>
+                    <constraint firstItem="V65-gY-AKv" firstAttribute="bottom" secondItem="bst-0h-I1a" secondAttribute="bottom" constant="7" id="eup-AD-ndT"/>
+                    <constraint firstItem="Dui-Zk-AOg" firstAttribute="top" secondItem="1Kd-0z-5oH" secondAttribute="top" id="hCD-am-RDG"/>
+                    <constraint firstAttribute="bottom" secondItem="bst-0h-I1a" secondAttribute="bottom" constant="9" id="qhW-Rl-rhq"/>
+                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="bst-0h-I1a" secondAttribute="trailing" constant="50" id="xvy-9Q-VNy"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="bubbleImageView" destination="V65-gY-AKv" id="w0f-6j-LuB"/>
+                <outlet property="dateTimeLabel" destination="Rro-9o-I4G" id="I7d-b9-ScF"/>
+                <outlet property="dummingView" destination="Dui-Zk-AOg" id="T8s-CQ-bUz"/>
+                <outlet property="messageTextView" destination="bst-0h-I1a" id="VHp-fD-dpE"/>
+            </connections>
+            <point key="canvasLocation" x="-408" y="55"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="dummingColor">
+            <color red="0.33000001311302185" green="0.33000001311302185" blue="0.33000001311302185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>
