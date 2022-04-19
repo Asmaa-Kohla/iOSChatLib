@@ -5,11 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/ChatLib.svg?style=flat)](https://cocoapods.org/pods/ChatLib)
 [![Platform](https://img.shields.io/cocoapods/p/ChatLib.svg?style=flat)](https://cocoapods.org/pods/ChatLib)
 
-<video src="screenRecording.mov" alt="Screenshot of Quick Chat for iOS" />
-
-<video controls>
-  <source src="screenRecording.mov" type="video/mov">
-</video>
+<img src="screenRecording.gif" alt="Features recording" />
 
 <img src="screenshot1.png" alt="Screenshot of Dark mode" />
 
