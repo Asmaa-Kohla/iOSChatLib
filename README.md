@@ -7,11 +7,11 @@
 
 <img src="screenRecording.gif" alt="Features recording" />
 
-<img src="screenshot1.png" alt="Screenshot of Dark mode" />
-
-<img src="screenshot2.png" alt="Screenshot of Dark mode" />
-
-<img src="screenshot3.png" alt="Screenshot of Dark mode" />
+<p align="center"> 
+ <img src="screenshot1.png" width="270"/>
+ <img src="screenshot2.png" width="270" />
+ <img src="screenshot3.png" width="270" />
+</p> 
 
 ## Example
 
